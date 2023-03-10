@@ -59,6 +59,10 @@ h1, h2, h3 {
 } 
 
 
+/**
+ * TV SHOWS
+ * -------------------------------------------------------------
+ */
 .icon {
    color: #808080;
    margin-left: auto;
@@ -73,6 +77,42 @@ h1, h2, h3 {
 .icon .d-flex:first-of-type i{
    font-size: 21px;
 }
+.genres-wrapper {
+   position: relative;
+}
+.list-genres {
+   display: none;
+   position: absolute;
+   width: calc(100% + 350px);
+   left: 0;
+   background-color: rgba(0,0,0,0.9);
+}
+.list-genres .flex {
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+}
+.list-genres ul {
+   padding-left: 0;
+   margin-bottom: 0;
+}
+.list-genres ul li:not(li:last-of-type) {
+   margin-bottom: 0.5rem;
+   display: block;
+}
+.list-genres ul a {
+   display: block;
+   color: #fff;
+   font-size: 0.8rem;
+}
+.list-genres ul a:hover {
+   text-decoration: underline;
+}
+.genres-wrapper:hover .list-genres {
+   display: block;
+}
+
+
 /**
  * FOOTER
  * -------------------------------------------------------------
