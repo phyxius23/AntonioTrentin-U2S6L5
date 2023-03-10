@@ -1,9 +1,30 @@
-/* .user-link {
+/**
+ * RESET
+ * -------------------------------------------------------------
+ */
+a {
    text-decoration: none;
-} */
+}
+ul {
+   list-style-type: none;
+}
 
+
+/**
+ * UTILITY
+ * -------------------------------------------------------------
+ */
 body {
    background-color: #141414;
+}
+
+
+/**
+ * HEADINGS
+ * -------------------------------------------------------------
+ */
+h1, h2, h3 {
+   color: #fff;
 }
 
 
@@ -31,8 +52,39 @@ body {
    color: #fff;
 }
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .custom-toggler.navbar-toggler {
-  border-color: rgb(255,255,255);
+   border-color: rgb(255,255,255);
 } 
+
+
+/**
+ * FOOTER
+ * -------------------------------------------------------------
+ */
+.footer {
+   margin-top: 6rem;
+   color: #808080;
+}
+.footer i {
+   font-size: 22px;
+}
+.footer a {
+   color: #808080;
+   font-size: 0.8rem;
+}
+.footer .btn-outline-secondary {
+   border-color: #808080;
+   border-radius: unset;
+}
+.footer .copyright {
+   font-size: 0.7rem;
+}
+@media screen and (min-width: 992px) {
+   .container-ft {
+      max-width: 960px;
+      margin-inline: auto;
+      padding-inline: 1rem;
+   }
+}
