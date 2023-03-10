@@ -1,0 +1,38 @@
+/* .user-link {
+   text-decoration: none;
+} */
+
+body {
+   background-color: #141414;
+}
+
+
+/**
+ * NAVBAR
+ * -------------------------------------------------------------
+ */
+.navbar-nav .nav-link {
+   color: #e5e5e5;
+}
+.navbar-nav .nav-link.active {
+   color: #fff;
+   font-weight: 500;
+}
+.user-menu i,
+.user-menu .nav-link {
+   color: #fff;
+}
+.user-menu .nav-link.active {
+   color: #e5e5e5;
+   font-weight: 500;
+}
+.navbar-toggler,
+.navbar-toggler-icon {
+   color: #fff;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255);
+} 

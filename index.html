@@ -5,16 +5,87 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <!-- Bootstrap -->
+   <!-- Bootstrap Icons -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+   <!-- Bootstrap CSS -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
-   <!-- CSS Custom -->
+   <!-- Custom CSS -->
    <link rel="stylesheet" href="assets/css/style.css">
 
    <title>Netflix - Clone with Bootstrap</title>
 </head>
 <body>
    
+   <!-- NAVBAR
+   --------------------------------------------------------- -->
+   <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+
+         <a class="navbar-brand" href="#">
+            <img src="assets/img/netflix_logo.png" alt="Netflix" height="40">
+         </a>
+
+         <!-- Toggle -->
+         <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <!-- Link alle pagine -->
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">TV Shows</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Movies</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Recently Added</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">My List</a>
+               </li>
+            </ul>
+         </div> <!-- .navbar-collpase -->
+
+            <!-- Menu utente -->
+            <div class="user-menu d-flex align-items-center">
+               <div class="mx-2">
+                  <i class="bi bi-search"></i>
+               </div>
+               <div class="mx-3">
+                  <a class="nav-link text-uppercase active" href="#">Kids</a>
+               </div>
+               <div class="mx-3">
+                  <i class="bi bi-bell-fill"></i>
+               </div>
+               <div class="mx-3">
+                  <img src="assets/img/avatar.png" alt="Netflix" height="40">
+               </div>
+            </div>
+            
+
+            <!-- Search -->
+            <!-- <form class="d-flex" role="search">
+               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+      </div> <!-- .container-fluid -->
+   </nav>
+
+
+   <!-- TRENDING NOW
+   --------------------------------------------------------- -->
+   <section>
+      
+   </section>
+
+
    <!-- Scripts -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
