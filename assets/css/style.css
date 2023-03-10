@@ -38,6 +38,12 @@ ul {
    background-color: transparent;
    border-color: rgba(128,128,128,0.2);
 }
+@media screen and (max-width: 980px) {
+   .img-fluid {
+      max-width: unset;
+      width: 100%;
+   }
+}
 
 
 /**
@@ -64,6 +70,9 @@ h1, h2, h3 {
  * NAVBAR
  * -------------------------------------------------------------
  */
+.navbar-collapse {
+   flex-grow: 0;
+}
 .navbar-nav .nav-link {
    color: #e5e5e5;
 }
@@ -87,8 +96,31 @@ h1, h2, h3 {
    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .custom-toggler.navbar-toggler {
-   border-color: rgba(255,255,255, 0.5);
-} 
+   /* border-color: rgba(255,255,255, 0.5); */
+   border: none;
+}
+.navbar-toggler span {
+   display: block;
+   font-size: 0.7rem;
+}
+.navbar-toggler i {
+   font-size: 0.8rem;
+}
+
+@media screen and (max-width: 991px) {
+   .navbar .container {
+      justify-content: flex-start;
+      position: relative;
+   }
+   .user-menu {
+      position: absolute;
+      right: 0;
+      top: 0;
+   }
+}
+.navbar-nav {
+   margin-left: auto;
+}
 
 
 /**
