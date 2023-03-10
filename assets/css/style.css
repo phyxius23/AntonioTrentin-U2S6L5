@@ -59,6 +59,20 @@ h1, h2, h3 {
 } 
 
 
+.icon {
+   color: #808080;
+   margin-left: auto;
+}
+.icon .d-flex {
+   height: 25px;
+   aspect-ratio: 1/1;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid #808080;
+}
+.icon .d-flex:first-of-type i{
+   font-size: 21px;
+}
 /**
  * FOOTER
  * -------------------------------------------------------------
