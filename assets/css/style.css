@@ -9,6 +9,36 @@ ul {
    list-style-type: none;
 }
 
+/* RESET CLASSI BOOTSTRAP */
+.btn-secondary {
+   border-radius: unset;
+   padding: 0.3rem 1rem;
+   text-align: left;
+}
+.btn-outline-secondary {
+   border-radius: unset;
+   color: #808080;
+   border-color: #808080;
+   padding: 0.5rem 1rem;
+}
+.btn-outline-secondary:hover {
+   background-color: #fff;
+   border-color: #fff;
+   color: #141414;
+}
+.input-group-text {
+   background-color: unset;
+   color: unset;
+   padding: 0;
+   border: unset;
+}
+.form-check-input[type=checkbox] {
+   margin-right: 0.5rem;
+   border-radius: 0;
+   background-color: transparent;
+   border-color: rgba(128,128,128,0.2);
+}
+
 
 /**
  * UTILITY
@@ -17,7 +47,9 @@ ul {
 body {
    background-color: #141414;
 }
-
+.custom-color {
+   color: #808080;
+}
 
 /**
  * HEADINGS
@@ -141,4 +173,14 @@ h1, h2, h3 {
       margin-inline: auto;
       padding-inline: 1rem;
    }
+}
+
+.container-profile {
+   max-width: 600px;
+   margin-inline: auto;
+   padding-inline: 2rem;
+}
+
+.br {
+   border-bottom: 1px solid rgba(128,128,128,0.2);
 }
